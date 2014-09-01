@@ -32,7 +32,7 @@ It's true - you're all welcome to suggest better elements and references to the 
 + All lists are ```.md``` files. Try to learn Github's Markdown syntax. It's simple!
 + The list of [elements](/elements.md) is currently just a flat list (See below). It's messy, so it'll need refactoring sooner rather than later. In the meantime, if you can suggest a better way to structure it, update the [TODO](/TODO.md) with the refactoring and raise an issue!
 
-Current example from Infrastructure.md:
+Current example from [Infrastructure](/Elements/Infrastructure.md):
 ```
 [...]
 - Os		Operating system - [Short description] - [URL to further reading]
