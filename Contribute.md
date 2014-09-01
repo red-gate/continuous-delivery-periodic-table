@@ -14,9 +14,12 @@ It's true - you're all welcome to suggest better elements and references to the 
 ## Steps to add or update an element
 
 1. Pick the term you think should be pruned, altered or added, and match it to a category.
-2. Decide how "heavy" the term is (i.e. the more opaque a term / the more you need to know about CD to understand it, the "heavier" it is).
-3. List the element weight, symbol, name and category.
-4. Add a short (~1 para) explanation of the term, and a link to further reading.
+2. Decide how "heavy" the term is (i.e. the more opaque a term / the more you need to know about CD to understand it, the "heavier" it is), relative to the other elements in that category
+3. Place the element in the list (ordered according to "weight", and list 
+	1. The elemental symbol
+	2. The element name 
+	3. A short (~1 para) explanation of the term 
+	4. A link to further reading.
 
 ### Guidelines
 
@@ -29,14 +32,14 @@ It's true - you're all welcome to suggest better elements and references to the 
 + All lists are ```.md``` files. Try to learn Github's Markdown syntax. It's simple!
 + The list of [elements](/elements.md) is currently just a flat list (See below). It's messy, so it'll need refactoring sooner rather than later. In the meantime, if you can suggest a better way to structure it, update the [TODO](/TODO.md) with the refactoring and raise an issue!
 
-Current example:
+Current example from Infrastructure.md:
 ```
 [...]
-1 - R - Repository - Version control - [Short description] - [URL to further reading]
-2 - Ff - Fast feedback - Metrics - [Short description] - [URL to further reading]
-3 - Dvcs - Distributed version control system - Version control - [Short description] - [URL to further reading]
-4 - Mcm - Meaningful commit messages - Version control - [Short description] - [URL to further reading]
-5 - Bg - Blue/green deployment - Rollback and recovery - [Short description] - [URL to further reading]
+- Os		Operating system - [Short description] - [URL to further reading]
+- V		Virtualization - [Short description] - [URL to further reading]
+- Eip	External integration points - [Short description] - [URL to further reading]
+- Cl		Cloud - [Short description] - [URL to further reading]
+
 ```
 
 And that's it! 
