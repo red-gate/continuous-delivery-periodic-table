@@ -1,5 +1,6 @@
-continuous-delivery-periodic-table
+#Continuous Delivery Periodic Table
 ==================================
+
 There's an awful lot of jargon to learn when you start reading about continuous delivery, particularly if you're not an application developer, so we're going to try and visualise it. This stuff is relevant for application AND database developers, so hopefully this would be a handy crash course.
 
 This periodic table will hopefully introduce some of the more common / essential "elements" of continuous delivery, and the goal is to offer concise introductions to terminology, and some suggested reading if you want to dig deeper.
