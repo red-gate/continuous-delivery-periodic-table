@@ -29,16 +29,20 @@ It's true - you're all welcome to suggest better elements and references to the 
 
 
 ### Formatting
-+ All lists are ```.md``` files. Try to learn Github's Markdown syntax. It's simple!
-+ The list of [elements](/elements.md) is currently just a flat list (See below). It's messy, so it'll need refactoring sooner rather than later. In the meantime, if you can suggest a better way to structure it, update the [TODO](/TODO.md) with the refactoring and raise an issue!
++ All lists are ```.md``` files using GitHub-flavoured markdown!
++ The lists of [elements](/elements.md) have a little bit of structure to it. It's currently a bit of a brain-dump, so it'll need a bit of reordering. In the meantime, if you can suggest a better way to structure it, update the [TODO](/TODO.md) with the idea and / or raise an issue :)
 
-Current example from [Infrastructure](/Elements/Infrastructure.md):
+Example from [Rollback and recovery](/Elements/Rollback-andRecover.md):
 ```
 [...]
-- Os		Operating system - [Short description] - [URL to further reading]
-- V		Virtualization - [Short description] - [URL to further reading]
-- Eip	External integration points - [Short description] - [URL to further reading]
-- Cl		Cloud - [Short description] - [URL to further reading]
+##Ms - Migrations scripts
+A migration script alters a database from one state to another, 'migrating' the database between versions. This alteration can be as simple as adding or removing a column to a table, or a complex refactoring task such as splitting tables or changing column properties in a way that could affect the data it stores.
+
+[https://www.simple-talk.com/sql/database-administration/using-migration-scripts-in-database-deployments/]
+
+##Symbol - Element name
+some copy to describe the element
+[link to a post for further reading]
 
 ```
 
